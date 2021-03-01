@@ -1,9 +1,3 @@
-variable "region" {
-  type        = string
-  description = "AWS Region the S3 bucket should reside in"
-  default     = "eu-west-2"
-}
-
 variable "create_s3_bucket" {
   type        = bool
   default     = true

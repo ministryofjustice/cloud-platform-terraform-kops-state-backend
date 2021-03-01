@@ -27,3 +27,4 @@ module "kops_state_backend" {
 | Name | Description |
 |------|-------------|
 | bucket_name | The name of the bucket created |
+| bucket_name_replica | The name of the replica created |

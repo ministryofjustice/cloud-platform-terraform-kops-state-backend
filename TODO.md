@@ -1,3 +1,0 @@
-# TODOs
-
-- Create read-replica
