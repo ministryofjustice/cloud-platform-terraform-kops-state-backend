@@ -96,7 +96,8 @@ module "kops_main" {
 
     rules = [
       {
-        status = "Enabled"
+        status   = "Enabled"
+        id       = "0"
 
         destination = {
           bucket        = "arn:aws:s3:::${var.bucket_name}-replica"
